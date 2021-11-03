@@ -21,7 +21,7 @@ const [menuOpen, setMenuOpen] = useState(false)
         <Intro />
         <Portfolio />
         <Works />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <Contact />
       </div>
     </div>
