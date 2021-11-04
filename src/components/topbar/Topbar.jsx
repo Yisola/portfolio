@@ -1,5 +1,6 @@
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+import { Mail } from "@material-ui/icons";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -8,17 +9,19 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">Ayomide.</a>
+                    <a href="https://www.linkedin.com/in/ayomide-akinremi" target="_blank">
+                        <div className="itemContainer">
+                            <FaLinkedin className="icon" />
+                            <span>Ayomide Akinremi</span>
+                        </div>
+                    </a>
                     <div className="itemContainer">
-                       <Person className="icon" />
-                       <span>+2348132060416</span>
-                    </div>
-                    <div className="itemContainer">
-                       <Mail className="icon" />
-                       <span>akinremiomoyisola@gmail.com</span>
+                        <Mail className="icon" />
+                        <span>akinremiomoyisola@gmail.com</span>
                     </div>
                 </div>
                 <div className="right">
-                    <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
+                    <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
                         <span className="line2"></span>
                         <span className="line3"></span>
