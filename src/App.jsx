@@ -1,6 +1,6 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
+import Skills from "./components/skills/Skills";
 import Works from "./components/works/Works";
 import Testimonial from "./components/testimonial/Testimonial"
 import Contact from "./components/contact/Contact";
@@ -19,7 +19,7 @@ const [menuOpen, setMenuOpen] = useState(false)
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
-        <Portfolio />
+        <Skills />
         <Works />
         {/* <Testimonial /> */}
         <Contact />
