@@ -3,6 +3,7 @@
 .contact {
   background-color: white;
   display: flex;
+  // height: calc(100vh - 70px);
 
   @include mobile {
     flex-direction: column;
@@ -43,6 +44,8 @@
         @include mobile {
           width: 200px;
           height: 20px;
+          margin-top: 20px;
+          margin-bottom: 15px;
         }
       }
 
@@ -54,6 +57,7 @@
         @include mobile {
           width: 200px;
           height: 100px;
+          margin-bottom: 15px;
         }
 
       }

@@ -21,7 +21,7 @@ export default function Works() {
             title: "Food Order App",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             img: "./assets/React-foodApp.png",
-            link: ""
+            link: "https://food-order-react-practice.herokuapp.com/"
         },
         {
             id: "3",
