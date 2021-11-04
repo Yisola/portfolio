@@ -56,7 +56,7 @@ export default function Works() {
     };
 
     return (
-        <div className="worksContainer">
+        <div className="worksContainer" id="works">
             <div className="worksHeader">
                 <h3>{"</>"}</h3>
                 <h2>A selection of some of my apps.</h2>
@@ -64,7 +64,7 @@ export default function Works() {
                     Here are a few I've had the pleasure of developing as practice exercises. Feel free to peruse them.</p>
             </div>
 
-            <div className="works" id="works">
+            <div className="works">
                 <div
                     className="slider"
                     style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
