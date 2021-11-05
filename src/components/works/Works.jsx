@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./works.scss"
+import { FiExternalLink } from "react-icons/fi"
 
 export default function Works() {
 
@@ -80,7 +81,10 @@ export default function Works() {
                                         <h2>{d.title}</h2>
                                         <p>{d.desc}</p>
                                         <a href={d.link} target="_blank">
-                                            <span>Projects</span>
+                                        <div className="itemContainer">
+                                            <span>View Project</span> 
+                                            <FiExternalLink className="icon" />
+                                            </div>
                                         </a>
                                     </div>
                                 </div>

@@ -4,9 +4,8 @@
     background-color: crimson;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 55px;
-    // justify-content: center;
 
     .worksHeader {
         text-align: center;
@@ -164,6 +163,21 @@
                             a {
                                 color: black;
 
+                                .itemContainer {
+                                    display: flex;
+                                    align-items: center;
+                                    // margin-left: 30px;
+                            
+                                    @include mobile{
+                                      display: none;
+                                    }
+                            
+                                    .icon {
+                                      font-size: 18px;
+                                      margin-left: 5px;
+                                    }
+
+
                                 span {
                                     font-size: 12px;
                                     font-weight: 600;
@@ -171,6 +185,7 @@
                                     cursor: pointer;
                                 }
                             }
+                        }
                         }
                     }
                     .right {
