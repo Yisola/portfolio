@@ -11,7 +11,7 @@ export default function Works() {
             id: "1",
             icon: "./assets/mobile.png",
             title: "Qeola App",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            desc: "A company website that interacts with a RESTful APi built using React.js, Bootstrap and HTML. ",
             img: "./assets/Qeola-App.png",
             link: "http://qeola-app.herokuapp.com/"
         },
@@ -19,7 +19,7 @@ export default function Works() {
             id: "2",
             icon: "./assets/globe.png",
             title: "Food Order App",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            desc: "A sample illustration of using React.js to handle a food order application.",
             img: "./assets/React-foodApp.png",
             link: "https://food-order-react-practice.herokuapp.com/"
         },
@@ -27,7 +27,7 @@ export default function Works() {
             id: "3",
             icon: "./assets/writing.png",
             title: "Swift Treat",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            desc: "A static telemedicine landing page built using HTML, CSS and JQuery.",
             img: "assets/Swift-Treat.png",
             link: "https://yisola.github.io/SwiftTreat/"
         },
@@ -35,7 +35,7 @@ export default function Works() {
             id: "4",
             icon: "./assets/writing.png",
             title: "Green Plug",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            desc: "A static green energy landing page built using Bootstrap, HTML and CSS.",
             img: "assets/greenplug.png",
             link: "https://green-plug.netlify.app/"
         },
@@ -43,7 +43,7 @@ export default function Works() {
             id: "5",
             icon: "./assets/writing.png",
             title: "Women's Accessories Store",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            desc: "A static e-Commerce website layout for female accesories built using Bootstrap, HTML and CSS.",
             img: "assets/makeup.png",
             link: "https://yisola.github.io/e-commerce-practice/"
         },
