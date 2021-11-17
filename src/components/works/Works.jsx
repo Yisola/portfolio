@@ -18,6 +18,14 @@ export default function Works() {
         },
         {
             id: "2",
+            icon: "./assets/writing.png",
+            title: "Women's Accessories Store",
+            desc: "A functional e-Commerce website layout for female accesories built using React.js, Bootstrap and HTML.",
+            img: "assets/makeup.png",
+            link: "women-accessories-store.netlify.app"
+        },
+        {
+            id: "3",
             icon: "./assets/globe.png",
             title: "Food Order App",
             desc: "A sample illustration of using React.js to handle a food order application.",
@@ -25,7 +33,7 @@ export default function Works() {
             link: "https://food-order-react-practice.herokuapp.com/"
         },
         {
-            id: "3",
+            id: "4",
             icon: "./assets/writing.png",
             title: "Swift Treat",
             desc: "A static telemedicine landing page built using HTML, CSS and JQuery.",
@@ -33,20 +41,12 @@ export default function Works() {
             link: "https://yisola.github.io/SwiftTreat/"
         },
         {
-            id: "4",
+            id: "5",
             icon: "./assets/writing.png",
             title: "Green Plug",
             desc: "A static green energy landing page built using Bootstrap, HTML and CSS.",
             img: "assets/greenplug.png",
             link: "https://green-plug.netlify.app/"
-        },
-        {
-            id: "5",
-            icon: "./assets/writing.png",
-            title: "Women's Accessories Store",
-            desc: "A static e-Commerce website layout for female accesories built using Bootstrap, HTML and CSS.",
-            img: "assets/makeup.png",
-            link: "https://yisola.github.io/e-commerce-practice/"
         },
     ];
 
