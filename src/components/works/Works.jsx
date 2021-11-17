@@ -22,7 +22,7 @@ export default function Works() {
             title: "Women's Accessories Store",
             desc: "A functional e-Commerce website layout for female accesories built using React.js, Bootstrap and HTML.",
             img: "assets/makeup.png",
-            link: "women-accessories-store.netlify.app"
+            link: "http://women-accessories-store.netlify.app"
         },
         {
             id: "3",
